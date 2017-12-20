@@ -1,0 +1,48 @@
+HRM
+  -src
+   com.hrm.action
+     Action.java(I)
+   
+   com.hrm.factory
+     BoardActionFactory.java
+     LicenseActionFactory.java
+     CommuteActionFactory.java
+     
+     게시판
+   com.hrm.board.action
+    
+   com.hrm.board.controller
+     BoardAjaxActionController.java(Servlet /aboard)
+     BoardPageActionController.java(Servlet /pboard)
+     
+   com.hrm.board.model
+     BoardDto.java
+   
+   com.hrm.board.model.service
+     BoardService.java(I)
+     BoardServiceImpl.java
+   
+   com.hrm.board.model.dao
+     BoardDao.java(I)
+     BoardDaoImpl.java   
+   
+   com.hrm.util
+   	 PageMove.java
+   
+   com.hrm.util.db
+     DBConnection.java
+     DBClose.java 
+   
+  - webContent
+    doc - 참고용 문서
+    css - *.css
+    js - *.js
+    img - images
+    
+    board
+     - boardlist.jsp : 자유게시판 리스트
+     - boardwrite.jsp : 자유게시판 등록
+    
+    index.jsp - 메인페이지(테스트용)
+  
+      	
